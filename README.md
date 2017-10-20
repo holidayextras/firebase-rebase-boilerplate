@@ -1,9 +1,8 @@
-# Flickr-API-React-Redux-demo
-A simple React &amp; React demo application that interacts with the Flickr API to search photos.
+# Firebase rebase boilerplate
+
+A simple firebase app with predefined authentication
 
 https://github.com/tylermcginnis/re-base
-
-JHead to the firebase fiel and fill on the cofig 
 
 ## Available Scripts
 
@@ -24,3 +23,7 @@ You will also see any lint errors in the console.
 ### `npm run build`
 
 Builds the app for production to the `deploy` folder.
+
+### `firebase deploy`
+
+Deploys the build to firebase.
