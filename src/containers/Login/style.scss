@@ -1,0 +1,75 @@
+@import '../../sass/_vars.scss';
+
+
+// $buttonCol: #df4a32;
+// $2ndColor: #4285f4;
+// $2ndColorGrad: #df4a32;
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -200px;
+    text-align: center;
+    background: #fff;
+    padding: 0 $padding $padding;
+    border-radius: $padding;
+    button {
+        margin-top: $padding;
+    }
+    .foot {
+        border-radius: 15px;
+        background: #fff;
+        padding: 1px $padding $padding $padding;
+        margin: 0 -$padding;
+    }
+}
+
+.user-badge {
+    margin: 0 auto;
+    width: 8vw;
+    height: 8vw;
+    background: #df4a32;
+    margin-top: -5vw;
+    border-radius: 50%;
+    border: 5px solid #eee;
+    color: #fff;
+    overflow: hidden;
+    font-size: 54px;
+    padding-top: 18px;
+}
+
+.button {
+    cursor: pointer;
+    display: block;
+    padding: $padding 20px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    i {
+        position: absolute;
+        border-right: 2px solid darken(#4387fd, 15%);
+        height: 100%;
+        top: 0;
+        left: 0;
+        padding: 17px 14px 17px 17px;
+    }
+    &:HOVER {
+        box-shadow: 0 1px 0 rgba(0,0,0,.15);
+        background: lighten(#4285f4, 5%);
+    }
+    &:ACTIVE {
+        background: #3c78dc;
+        background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+    }
+}
